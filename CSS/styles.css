@@ -1,0 +1,126 @@
+﻿body {
+    background-image:url(../images/woo3.jpg);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;    
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: silver;
+    text-align: center;
+}
+
+h4, p, a {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+  }
+
+button {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+ul {
+    list-style: outside disc;
+    margin-left: 1em;
+}
+
+ul li {
+    overflow: hidden;
+    position: relative;
+    left: 1em;
+    padding-right: 1em;  
+    font-size: 20px;
+    color: silver;  
+}​
+
+img {
+    border: 5px solid goldenrod;
+  }
+  img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .table {
+    display: table;
+  }
+
+  .button {
+    font: 25px bold;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: black;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+
+  .wrapper {
+      text-align: center;
+  }
+
+  .cat {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+            transition: transform 0.8s ease-in-out;
+}
+
+  marquee {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: right;
+    height: 100px;
+}
+
+.topnav {
+    background-color: goldenrod;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  .score-board {
+    text-align: center;
+    padding: 25px;
+  }
+  .player {
+    display: inline-block;
+    padding: 15px;
+  }
+  .player h4 {
+    font-weight: bold;
+  }
+  .score-box {
+    border: 3px solid white;
+    padding: 30px;
+    color: silver;
+  }
+
