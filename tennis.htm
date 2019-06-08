@@ -1,15 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 <head>
         <link rel="stylesheet" href="CSS/styles.css">        
         <title>Jack Direct Ltd.</title>
-        <script>
-                var score = 0;
-                function add1() {
-                score = score + 1;
-                alert(score);
-                };
-                </script>
 </head>
 
 <body>
@@ -18,36 +12,48 @@
                 <a href="catspin.htm">Spinning Cats</a>
                 <a href="tennis.htm">Tennis</a>
                 <a href="textadventure.htm">Text Adventure</a>
+                <a href="Battleships.html">Battleship game</a>
               </div>
 
-<p>(Tennis game goes here, boss) I'm working on it, people...</p>
+<p>A man was asked once to fix a broken tennis game, in an interview. A man knew very little, so he rebuilt it from scratch here, to show he remembered, to show he enjoys a challenge.</p>
 
-<button onclick="buttonClick()">Player 1</button>
-<button onclick="buttonClick()">Player 2</button>
+<p>This is curently under construction while I work on my Javascript/functions knowledge</p>
 
+<button id="p1button" onclick="buttonClick()">Player 1</button>
+<button id="p2button" onclick="buttonClick2()">Player 2</button>
+
+<form id="scores">
 <div class="score-board">
         <div class="player">
           <h4>Player 1</h4>
           <div class="score-box">
-                <input type="text" id="inc1" value="0"></input>
+                <input type="form" id="inc1" value="0" readonly></input>
           </div>
         </div>
         <div class="player">
           <h4>Player 2</h4>
           <div class="score-box">
-                <input type="text" id="inc2" value="0"></input>
+                <input type="form" id="inc2" value="0" readonly></input>
           </div>
         </div>
       </div>
+</form>
+
+<button type="button" onclick="RestoreValues();">Reset</button>
 
       <script>
             var i = 0;
             function buttonClick() {
                 document.getElementById('inc1').value = ++i;
-            }
-            function buttonClick() {
-                document.getElementById('inc2').value = ++i;
-            }
+            };
+            var i2 = 0;
+            function buttonClick2() {
+                document.getElementById('inc2').value = ++i2;
+            };
+            function RestoreValues() {
+            var i= 0;
+            var i2 = 0;
+          }
         </script>
 
 </body>            
